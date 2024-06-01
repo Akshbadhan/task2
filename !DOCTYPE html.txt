@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Self Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="Skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+Hi, My name is Aksh Badhan, and I am currently a 2nd year student at Amity University, majoring in BCA. I chose this field of study because I am passionate about Programming Languages, and I am eager to pursue a career in Web developer.
+</p>
+       <img src="C:\Users\AKSH BADHAN\Downloads\Linkedin img.jpeg" alt="My Photo">
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>10th</p>
+        <p>I have completed My 10th from Sam International School</p>
+     <b><p>Percentage:-80%<p></b><hr><br>
+
+        <p>12th</p>
+        <p>I have completed My 10th from Sam International School</p>
+     <b><p>Percentage:-72%<p></b>
+
+    </section>
+
+<section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript</li>
+            <li>Web Development: HTML, CSS, </li>
+            <li>Data Analysis: Excel, SQL, </li>
+        </ul>
+<img src="C:\Users\AKSH BADHAN\Downloads\js.png"style="width:55px;height:65px;">
+<img src="C:\Users\AKSH BADHAN\Downloads\images.png"style="width:55px;height:65px;">
+<img src="C:\Users\AKSH BADHAN\Downloads\images (1).png"style="width:55px;height:65px;">
+    </section>
+
+
+    <section id="contact">
+         <h2>Contact</h2>
+        <p>Email: <a href="mailto:[your-email@example.com]">akshbadhan948@gmail.com</a></p>
+        <p>Phone: 7011583158 </p>
+        <p>LinkedIn: <a href="https://in.linkedin.com/in/aksh-badhan-064419258">Linkedin</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aksh Badhan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    Nav ul {
+        Display: flex;
+        Flex-direction: column;
+        Align-items: center;
+    }
+
+    Nav ul li {
+        Margin: 5px 0;
+    }
+
+    Main {
+        Padding: 10px;
+    }
+
+    Section {
+        Margin: 10px 0;
+    }
+
+    Footer {
+        Position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    Header h1 {
+        Font-size: 1.5em;
+    }
+
+    Nav ul li {
+        Margin: 5px 0;
+    }
+
+    Section h2 {
+        Font-size: 1.2em;
+    }
+
+    Section p {
+        Font-size: 1em;
+    }
+}
+
+
+/* Navigation Bar */
+Nav {
+    Background: #333;
+    Color: #fff;
+    Padding: 10px 20px;
+    Text-align: center;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: #fff;
+    Text-decoration: none;
+    Font-weight: bold;
+}
+
+Nav ul li a:hover {
+    Text-decoration: underline;
+}
+
+
+
+/* Button Styling */
+Button, .btn {
+    Background: #35424a;
+    Color: #fff;
+    Border: none;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    Font-size: 1em;
+    Border-radius: 5px;
+}
+
+Button:hover, .btn:hover {
+    Background: #45a049;
+}
+
+
+/* Card Layout */
+.card {
+    Background: #fff;
+    Border: 1px solid #ddd;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    Padding: 20px;
+    Margin: 20px 0;
+    Border-radius: 5px;
+}
+
+.card h3 {
+    Margin-top: 0;
+}
+
+.card p {
+    Margin: 10px 0;
+}
+
+
+
+
+
+
+
